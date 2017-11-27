@@ -6,58 +6,149 @@
 body {
   font-family: 'Roboto', sans-serif;
   /* ADD PADDING SO THAT THE NAVBAR DOESNT COVER THE CONTENT */
-  /*padding-top: */
 }
 
 nav {
   /*background-color: #343a40;*/
   background-color: black;
 }
-nav a {
+nav a:hover {
+  color: white;
+  color: #494949;
+  color: #1986ba;
+}
+.navbar-dark .navbar-nav .nav-link {
   font-size: 1.5rem;
   color: #19b5fe;
   /*color: #1e90ff;*/
   /*color: #4874f7;*/
 }
-nav a:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
   color: white;
   color: #494949;
   color: #1986ba;
-  /*color: white;*/
 }
-.navbar-brand {
-  color: white;
+.navbar-dark .navbar-brand {
+  color: #19b5fe;
 }
-.bg-dark {
-  background-color: white;
+.navbar-dark {
+  color: #19b5fe;
 }
 nav .container {
-  width: auto;
-  width: 8.438em;
   padding-left: 0em;
   margin-left: 0em;
 
   color: white;
 }
-nav .navbar-collapse {
-
-  justify-content: center;
-  /*color: #19b5fe;*/
+.navbar>.container {
+  justify-content: flex-start;
 }
-
-#navbarNavAltMarkup {
-  /*width: auto;*/
-  /*width: 200px;*/
+.navbar-brand {
+  /*width: 9em;*/
+  padding-left: 0;
+  padding: 0;
+  margin: 0 auto;
 }
-
 main {
   margin-top: 68px;
   margin-top: 4.250em;
 }
 
+/* ======================================================================
+                        TABLETS
+========================================================================= */
+@media (min-width: 768px) {
+  .navbar-dark .navbar-brand {
+    color: white;
+  }
 
 
+}
 
+/* ======================================================================
+                        DESKTOPS
+========================================================================= */
+@media (min-width: 992px) {
+  nav {
+    /*background-color: #343a40;*/
+    background-color: black;
+    /*background-color: white;*/
+  }
+  nav a {
+    font-size: 1.5rem;
+    color: #19b5fe;
+    /*color: #1e90ff;*/
+    /*color: #4874f7;*/
+  }
+  nav a:hover {
+    color: white;
+    color: #494949;
+    color: #1986ba;
+    /*color: white;*/
+  }
+  .navbar-brand {
+    color: white;
+  }
+  nav .container {
+    width: auto;
+    width: 8.438em;
+    padding-left: 0em;
+    margin-left: 0em;
+
+    color: white;
+  }
+  nav .navbar-collapse {
+    /*justify-content: center;*/
+    /*color: #19b5fe;*/
+  }
+  .navbar-toggler-icon {
+    /*color: white;*/
+  }
+
+  #navbarNavAltMarkup {
+    /*width: auto;*/
+    /*width: 200px;*/
+  }
+
+  main {
+    margin-top: 68px;
+    margin-top: 4.250em;
+  }
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+*/
 
 
 
