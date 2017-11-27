@@ -1,0 +1,10 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* ADD PADDING SO THAT THE NAVBAR DOESNT COVER THE CONTENT */
+  /*padding-top: */
+}
