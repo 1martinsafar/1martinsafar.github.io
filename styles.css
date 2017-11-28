@@ -34,6 +34,10 @@ nav {
 .navbar-dark .navbar-brand {
   color: #19b5fe;
 }
+/* CURRENT PAGE */
+#currentPage {
+  color: #1986ba;
+}
 nav .container {
   padding-left: 0em;
   margin-left: 0em;
@@ -81,6 +85,10 @@ main {
   .navbar-dark .navbar-brand {
     color: white;
     margin-left: 3rem;
+  }
+  /* CURRENT PAGE */
+  #currentPage {
+    color: #1986ba;
   }
 
   /* >>>>> NAVIGATION <<<<< */
