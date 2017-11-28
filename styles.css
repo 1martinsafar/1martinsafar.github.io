@@ -52,9 +52,67 @@ main {
   margin-top: 68px;
   margin-top: 4.250em;
 }
+/* ======================================================================
+                         FOOTER
+========================================================================= */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
 
+  padding-top: 2rem;
+  /*padding-left: 1rem;*/
+  /*padding-right: 1rem;*/
+  align-items: center;
+  justify-content: center;
+}
+footer h2 {
+  color: #19b5fe;
+  /*align-self: center;*/
+}
+footer span {
+  color: white;
+  /*align-self: center;*/
+}
+footer .navbar {
+  height: 10rem;
+  padding-bottom: 2rem;
 
+  padding-left: 0;
+  padding-right: 0;
+}
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: opacity .5s;
 
+  /*padding: 0 4rem;*/
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
+}
+a.twitter {
+  background-image: url(svgs/twitter.svg);
+  background-repeat: no-repeat;
+}
+a.linkedin {
+  background-image: url(svgs/linkedin.svg);
+  background-repeat: no-repeat;
+}
+a.github {
+  background-image: url(svgs/github.svg);
+  background-repeat: no-repeat;
+}
+a.social:hover {
+  opacity: 1;
+}
 
 /* ======================================================================
                         TABLETS
