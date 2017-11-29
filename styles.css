@@ -86,13 +86,12 @@ main {
 footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: black;
 
   padding-top: 2rem;
-  /*padding-left: 1rem;*/
-  /*padding-right: 1rem;*/
-  align-items: center;
-  justify-content: center;
+  margin-top: 2rem;
 }
 footer h2 {
   color: #19b5fe;
@@ -249,7 +248,7 @@ a.social:hover {
 .about-p a {
   text-decoration: none;
 }
-#contact-info .container-fluid.about-container
+#contact-info .container-fluid.about-container,
 #about-info .container-fluid.about-container {
   justify-content: center;
   align-items: flex-start;
