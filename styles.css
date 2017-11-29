@@ -31,6 +31,26 @@ main {
 #contact-main {
 
 }
+.highlight-light {
+  color: #19b5fe;
+}
+.highlight-dark {
+  color: #007bff;
+}
+.btn {
+  background-color:  #19b5fe;
+  background-color: #007bff;
+}
+.tab-space {
+  /*margin-right: 0.5rem;*/
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  /*padding-right: 0.5rem;*/
+  /*padding-right: 1rem;*/
+  min-width: 5.7rem;
+  min-width: 6.5rem;
+}
 /* ======================================================================
                         NAVIGATION
 ========================================================================= */
@@ -255,6 +275,9 @@ a.social:hover {
 }
 #about-info {
   /*margin-bottom: 4rem;*/
+}
+.about-me {
+  text-align: center;
 }
 
 /* ======================================================================
