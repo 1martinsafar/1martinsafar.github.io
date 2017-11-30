@@ -51,6 +51,25 @@ main {
   min-width: 5.7rem;
   min-width: 6.5rem;
 }
+#home-html {
+
+}
+#home-body {
+
+}
+#home-main {
+  background-image: url('new-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+
+  /*margin-top: 5rem;*/
+  margin-top: 4.25rem;
+}
+#home-footer {
+  margin-top: 0;
+}
 /* ======================================================================
                         NAVIGATION
 ========================================================================= */
