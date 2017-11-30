@@ -51,25 +51,6 @@ main {
   min-width: 5.7rem;
   min-width: 6.5rem;
 }
-#home-html {
-
-}
-#home-body {
-
-}
-#home-main {
-  background-image: url('new-background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100%;
-
-  /*margin-top: 5rem;*/
-  margin-top: 4.25rem;
-}
-#home-footer {
-  margin-top: 0;
-}
 /* ======================================================================
                         NAVIGATION
 ========================================================================= */
@@ -185,6 +166,129 @@ a.social:hover {
   bottom: 0;
   left: 0;
 }*/
+/* ======================================================================
+                         HOME PAGE
+========================================================================= */
+#home-html {
+
+}
+#home-body {
+
+}
+#home-main {
+  background-image: url('new-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+
+  /*margin-top: 5rem;*/
+  margin-top: 3.5rem;
+}
+#home-footer {
+  margin-top: 0;
+}
+#home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 5rem;
+  padding-top: 4rem;
+}
+#home-main h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 2.5rem;
+  /*font-size: 4rem;*/
+}
+#home-main h2 {
+  color: white;
+  margin-top: 2rem;
+}
+#home-main #this-way {
+  background-color: #19b5fe;
+  background-color: black;
+  border-color: white;
+  /*border-color: black;*/
+  /*border-color: #19b5fe;*/
+  border-width: 2px;
+  /*margin-top: 1rem;*/
+
+  /*border-radius: 50%;*/
+  /*border-radius: 40%;*/
+  border-radius: 0.5rem;
+}
+#home-main #this-way:hover {
+  background-color: #181818;
+  /*border-radius: 50%;*/
+  /*border-color: black;*/
+  border-color: #19b5fe;
+}
+#home-main a {
+  text-decoration: none;
+  color: black;
+  color: #19b5fe;
+}
+#home-main a:hover {
+
+}
+#home-main .alert {
+  text-align: left;
+}
+
+/* TEST */
+.alert {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.9em;
+  opacity: 0.85;
+  color: white;
+  color: black;
+  background-color: #615fd0;
+  background-color: #19b5fe;
+  border-radius: 5px;
+
+  padding: 0.75em;
+  margin: 1em;
+
+  /* TESTING */
+  /*min-width: 20%;*/
+  width: 17rem;
+  margin-top: 2rem;
+
+  justify-content: center;
+  align-items: center;
+}
+.alert p {
+  margin: auto;
+  /*width: 100%;*/
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.alert-close {
+  font-weight: bold;
+  font-size: 22px;
+  /*font-size: 1.3rem;*/
+  /*font-size: 1.423rem;*/
+  line-height: 20px;
+  cursor: pointer;
+
+  padding-left: 0.25em;
+  /*margin-left: auto;*/
+}
+.alert {
+  /*padding-right: 10rem;*/
+}
+.close {
+  /*margin-left: auto;*/
+}
+
+
+
+
 /* ======================================================================
                          CONTACT PAGE
 ========================================================================= */
@@ -363,6 +467,53 @@ a.social:hover {
   }
   #nav-container {
     justify-content: space-between;
+  }
+  /* ======================================================================
+                           HOME PAGE
+  ========================================================================= */
+  #home-html {
+
+  }
+  #home-body {
+
+  }
+  #home-main {
+    height: 100%;
+    margin-top: 4.25rem;
+  }
+  #home-footer {
+    margin-top: 0;
+  }
+  #home-main {
+    padding-top: 10rem;
+  }
+  #home-main h1 {
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  #home-main h2 {
+    margin-top: 2rem;
+  }
+  #home-main #this-way {
+    border-width: 2px;
+    /*margin-top: 1rem;*/
+  }
+  #home-main #this-way:hover {
+
+  }
+  #home-main a {
+
+  }
+  #home-main a:hover {
+
+  }
+  /* TEST */
+  .alert {
+    margin: 1.5em;
+    /* TESTING */
+    width: 40rem;
+    margin-top: 5rem;
+    /*margin-top: 10rem;*/
   }
   /* ======================================================================
                            CONTACT PAGE
