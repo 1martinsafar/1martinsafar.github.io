@@ -235,12 +235,12 @@ a.social:hover {
 #home-main a:hover {
 
 }
-#home-main .alert {
+#home-main .notification {
   text-align: left;
 }
 
 /* TEST */
-.alert {
+.notification {
   display: flex;
   flex-direction: row;
   font-size: 0.9em;
@@ -262,13 +262,15 @@ a.social:hover {
   justify-content: center;
   align-items: center;
 }
-.alert p {
+.notification p {
   margin: auto;
   /*width: 100%;*/
   font-size: 1.3rem;
   font-weight: 900;
+
+  cursor: pointer;
 }
-.alert-close {
+.notification-close {
   font-weight: bold;
   font-size: 22px;
   /*font-size: 1.3rem;*/
@@ -279,7 +281,7 @@ a.social:hover {
   padding-left: 0.25em;
   /*margin-left: auto;*/
 }
-.alert {
+.notification {
   /*padding-right: 10rem;*/
 }
 .close {
@@ -508,7 +510,7 @@ a.social:hover {
 
   }
   /* TEST */
-  .alert {
+  .notification {
     margin: 1.5em;
     /* TESTING */
     width: 40rem;
