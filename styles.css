@@ -307,6 +307,10 @@ a.social:hover {
   color: white;
   background-color: red;
 }
+#portfolio-container .portfolio img {
+  max-width: 100%;
+  width: 100%;
+}
 
 /* ======================================================================
                          CONTACT PAGE
