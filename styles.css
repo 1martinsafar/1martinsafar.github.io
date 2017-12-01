@@ -209,6 +209,7 @@ a.social:hover {
   margin-top: 2rem;
 }
 #home-main #this-way {
+  /*cursor: pointer;*/
   background-color: #19b5fe;
   background-color: black;
   border-color: white;
@@ -231,6 +232,10 @@ a.social:hover {
   text-decoration: none;
   color: black;
   color: #19b5fe;
+
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*padding: 0.6rem 1.5rem;*/
 }
 #home-main a:hover {
 
@@ -288,8 +293,20 @@ a.social:hover {
   /*margin-left: auto;*/
 }
 
+/* ======================================================================
+                         PORTFOLIO PAGE
+========================================================================= */
+#portfolio-container {
+  justify-content: center;
+  align-items: center;
+}
+.portfolio {
+  max-width: 80%;
+  margin-top: 1rem;
 
-
+  color: white;
+  background-color: red;
+}
 
 /* ======================================================================
                          CONTACT PAGE
@@ -410,8 +427,15 @@ a.social:hover {
 ========================================================================= */
 @media (min-width: 768px) {
   /**/
-
-
+  .portfolio {
+    max-width: 40%;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .portfolio:nth-child(odd) {
+    /*margin-right: 2rem;*/
+  }
 }
 
 /* ======================================================================
@@ -470,6 +494,19 @@ a.social:hover {
   #nav-container {
     justify-content: space-between;
   }
+
+  .portfolio {
+    max-width: 25%;
+    margin-top: 2rem;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .portfolio:nth-child(odd) {
+    /*margin-right: 0;*/
+  }
+
+
   /* ======================================================================
                            HOME PAGE
   ========================================================================= */
