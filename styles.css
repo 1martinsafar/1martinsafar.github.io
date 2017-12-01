@@ -182,11 +182,13 @@ a.social:hover {
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
+  height: auto;
 
   /*margin-top: 5rem;*/
   margin-top: 3.5rem;
 }
-#home-footer {
+#home-footer,
+#portfolio-footer {
   margin-top: 0;
 }
 #home-main {
@@ -300,7 +302,8 @@ a.social:hover {
 #portfolio-container {
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 .portfolio {
   max-width: 90%;
@@ -312,6 +315,12 @@ a.social:hover {
 #portfolio-container .portfolio img {
   max-width: 100%;
   width: 100%;
+}
+#portfolio-main {
+  /*padding-top: 0rem;*/
+
+  /*padding-bottom: 30rem;*/
+  /*margin-bottom: 20rem;*/
 }
 
 /* ======================================================================
@@ -501,6 +510,9 @@ a.social:hover {
     justify-content: space-between;
   }
 
+  #portfolio-container {
+    padding-bottom: 6rem;
+  }
   .portfolio {
     max-width: 25%;
     margin-top: 2rem;
@@ -508,9 +520,7 @@ a.social:hover {
     margin-left: 3rem;
     margin-right: 3rem;
   }
-  .portfolio:nth-child(odd) {
-    /*margin-right: 0;*/
-  }
+
 
 
   /* ======================================================================
@@ -522,14 +532,18 @@ a.social:hover {
   #home-body {
 
   }
-  #home-main {
+  #home-main,
+  #portfolio-main {
     height: 100%;
+    height: auto;
     margin-top: 4.25rem;
   }
-  #home-footer {
+  #home-footer,
+  #portfolio-footer {
     margin-top: 0;
   }
-  #home-main {
+  #home-main,
+  #portfolio-main {
     padding-top: 10rem;
   }
   #home-main h1 {
