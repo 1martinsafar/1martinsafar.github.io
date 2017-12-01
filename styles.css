@@ -175,7 +175,8 @@ a.social:hover {
 #home-body {
 
 }
-#home-main {
+#home-main,
+#portfolio-main {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -299,13 +300,14 @@ a.social:hover {
 #portfolio-container {
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 }
 .portfolio {
-  max-width: 80%;
-  margin-top: 1rem;
+  max-width: 90%;
+  margin-top: 2rem;
 
-  color: white;
-  background-color: red;
+  /*color: white;*/
+  /*background-color: red;*/
 }
 #portfolio-container .portfolio img {
   max-width: 100%;
