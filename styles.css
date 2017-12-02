@@ -83,8 +83,8 @@ nav {
   color: #1986ba;
 }
 nav .container {
-  padding-left: 0em;
-  margin-left: 0em;
+  padding-left: 0;
+  margin-left: 0;
 }
 .navbar-brand {
   margin: 0 auto;
