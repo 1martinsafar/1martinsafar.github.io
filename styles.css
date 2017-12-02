@@ -348,6 +348,8 @@ a.social:hover {
 .project-name {
   padding-top: 0;
   padding-bottom: 0.5rem;
+
+  font-size: 1.5rem;
 }
 .portfolio h2 {
   color: #19b5fe;
@@ -527,6 +529,7 @@ a.social:hover {
   }
   .project-name {
     /*padding-bottom: 0.5rem;*/
+    font-size: 2rem;
   }
   .check-me,
   .files {
@@ -619,6 +622,7 @@ a.social:hover {
   }
   .project-name {
     /*padding-bottom: 0.5rem;*/
+    font-size: 2rem;
   }
   #portfolio-container .portfolio img {
     max-width: 100%;
