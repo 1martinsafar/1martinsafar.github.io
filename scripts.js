@@ -8,9 +8,6 @@ const notification_close = document.querySelector(".notification-close");
 const close_hover = document.querySelector("#close-hover")
 const notification_text = document.querySelector(".notification p");
 
-// console.log(notification);
-// console.log(notification_close);
-
 // CLOSING THE NOTIFICATION
 notification_close.addEventListener("click", function() {
   notification.style.display = "none";
