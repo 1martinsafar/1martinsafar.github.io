@@ -176,7 +176,7 @@ a.social:hover {
 
 }
 #home-main {
-  background-image: url('background.jpg');
+  background-image: url('images-backgrounds/background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -299,7 +299,7 @@ a.social:hover {
                          PORTFOLIO PAGE
 ========================================================================= */
 #portfolio-main {
-  /*background-image: url('background.jpg');
+  /*background-image: url('images-backgrounds/background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;*/
@@ -473,6 +473,11 @@ a.social:hover {
 /* ======================================================================
                          ABOUT PAGE
 ========================================================================= */
+#about-main {
+  margin-top: 6rem;
+  padding-left: 0;
+  padding-right: 0;
+}
 .about-h {
   color: #19b5fe;
   font-size: 1.46rem;
@@ -504,6 +509,12 @@ a.social:hover {
                         TABLETS
 ========================================================================= */
 @media (min-width: 768px) {
+  .skills {
+    /**/
+  }
+  .skills span {
+    /**/
+  }
   #portfolio-main {
     padding-top: 3rem;
   }
@@ -788,6 +799,12 @@ a.social:hover {
   /* ======================================================================
                            ABOUT PAGE
   ========================================================================= */
+  #about-main {
+    height: auto;
+    /*padding-bottom: 2rem;*/
+    margin-top: 10rem;
+    background-color: black;
+  }
   .about-h {
     color: #19b5fe;
     font-size: 2.5rem;
