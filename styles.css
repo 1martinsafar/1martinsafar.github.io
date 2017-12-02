@@ -380,6 +380,9 @@ a.social:hover {
   color: white;
   margin-bottom: 0.5rem;
 }
+.note {
+  color: red;
+}
 
 /* ======================================================================
                          CONTACT PAGE
