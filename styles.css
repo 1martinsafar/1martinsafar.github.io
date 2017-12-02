@@ -504,8 +504,17 @@ a.social:hover {
                         TABLETS
 ========================================================================= */
 @media (min-width: 768px) {
-  /**/
+  #portfolio-main {
+    padding-top: 3rem;
+  }
+  #portfolio-container {
+    padding-bottom: 10rem;
+  }
   .portfolio {
+    height: 49.375rem;
+    height: 46rem;
+    height: auto;
+    height: 38rem;
     max-width: 40%;
     max-width: 45%;
     margin-top: 1.5rem;
@@ -514,6 +523,11 @@ a.social:hover {
 
     display: block;
   }
+  .project-9,
+  .project-10 {
+    height: 49.375rem;
+  }
+
   #portfolio-container .portfolio img {
     /*max-width: 100%;*/
     /*width: 100%;*/
@@ -530,6 +544,7 @@ a.social:hover {
   .project-name {
     /*padding-bottom: 0.5rem;*/
     font-size: 2rem;
+    font-size: 1.5rem;
   }
   .check-me,
   .files {
@@ -613,6 +628,7 @@ a.social:hover {
     padding-bottom: 6rem;
   }
   .portfolio {
+    height:44.375rem;
     max-width: 25%;
     max-width: 28%;
     margin-top: 2rem;
