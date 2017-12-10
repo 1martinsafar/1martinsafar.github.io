@@ -69,6 +69,7 @@ nav {
   color: white;
   color: #494949;
   color: #1986ba;
+  color: #c5edfa;
 }
 /* COLOR OF THE NAV LINKS > ON FOCUS/CLICK*/
 .navbar-dark .navbar-nav .nav-link:focus {
@@ -81,6 +82,7 @@ nav {
 /* CURRENT PAGE */
 #currentPage {
   color: #1986ba;
+  color: white;
 }
 nav .container {
   padding-left: 0;
@@ -589,6 +591,7 @@ a.social:hover {
     color: white;
     color: #494949;
     color: #1986ba;
+    color: #c5edfa;
   }
   /* COLOR OF THE NAME*/
   .navbar-dark .navbar-brand {
@@ -598,6 +601,7 @@ a.social:hover {
   /* CURRENT PAGE */
   #currentPage {
     color: #1986ba;
+    color: white;
   }
 
   /* >>>>> NAVIGATION <<<<< */
