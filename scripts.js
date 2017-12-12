@@ -28,9 +28,22 @@ notification.addEventListener("mouseout", function() {
 //   $("#close-hover").toggle("highlight", {}, 3000);
 // });
 
+/*
 
+<footer id="home-footer">
+  <h2>Gmail</h2>
+  <span class="gmail">1martinsafar@gmail.com</span>
+  <nav class="navbar justify-content-center navbar-dark">
+    <!-- GitHub SVG -->
+    <a href="https://github.com/1martinsafar" class="social github" target="_blank">GitHub</a>
+    <!-- LinkedIn SVG -->
+    <a href="https://www.linkedin.com/" class="social linkedin" target="_blank">LinkedIn</a>
+    <!-- Twitter SVG -->
+    <a href="https://twitter.com/?lang=en" class="social twitter" target="_blank">Twitter</a>
+  </nav>
+</footer>
 
-
+*/
 
 
 
