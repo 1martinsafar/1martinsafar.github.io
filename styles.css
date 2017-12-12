@@ -209,6 +209,7 @@ a.social:hover {
   height: calc(100% - 4.25em);
   max-height: calc(100% - 4.25em;);
   margin-top: 0;
+  padding-top: 8.25rem;
 }
 #home-main h1 {
   color: white;
@@ -714,6 +715,7 @@ a.social:hover {
     height: calc(100% - 4.25em);
     max-height: calc(100% - 4.25em;);
     margin-top: 0;
+    padding-top: 14.25rem;
   }
   #home-main h1 {
     font-weight: 900;
