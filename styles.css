@@ -520,6 +520,11 @@ a.social:hover {
                         TABLETS
 ========================================================================= */
 @media (min-width: 768px) {
+  /* PROPERLY CENTERING NAVIGATION */
+  #navbarNavAltMarkup {
+    padding-right: 8.5em;
+  }
+
   .skills {
     /**/
   }
