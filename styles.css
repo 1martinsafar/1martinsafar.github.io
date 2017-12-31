@@ -91,6 +91,10 @@ nav .container {
 .navbar-brand {
   margin: 0 auto;
 }
+/* PROPERLY CENTERING NAVIGATION */
+#name {
+  padding-right: 3.5em;
+}
 /* ======================================================================
                          CONTENT
 ========================================================================= */
@@ -520,10 +524,8 @@ a.social:hover {
                         TABLETS
 ========================================================================= */
 @media (min-width: 768px) {
-  /* PROPERLY CENTERING NAVIGATION */
-  #navbarNavAltMarkup {
-    padding-right: 8.5em;
-  }
+
+
 
   .skills {
     /**/
@@ -594,6 +596,16 @@ a.social:hover {
                         DESKTOPS
 ========================================================================= */
 @media (min-width: 992px) {
+  /* PROPERLY CENTERING NAVIGATION */
+  #navbarNavAltMarkup {
+    padding-right: 8.5em;
+  }
+  /* PROPERLY CENTERING NAVIGATION */
+  #name {
+    padding-right: 0;
+  }
+
+
   /* COLOR OF THE NAV LINKS */
   .navbar-dark .navbar-nav .nav-link {
     color: #19b5fe;
