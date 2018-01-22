@@ -1,0 +1,83 @@
+/* ======================================================================
+                        NAVIGATION
+========================================================================= */
+nav {
+  background-color: $color-bg-dark;
+}
+/* COLOR OF THE NAV LINKS */
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.5rem;
+  color: $color-primary;
+}
+/* COLOR OF THE NAV LINKS > ON HOVER */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #c5edfa;
+}
+/* COLOR OF THE NAV LINKS > ON FOCUS/CLICK*/
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #1986ba;
+}
+/* COLOR OF THE NAME*/
+.navbar-dark .navbar-brand {
+  color: $color-primary;
+}
+/* CURRENT PAGE */
+#currentPage {
+  color: $color-text;
+}
+nav .container {
+  padding-left: 0;
+  margin-left: 0;
+}
+.navbar-brand {
+  margin: 0 auto;
+}
+/* PROPERLY CENTERING NAVIGATION */
+#name {
+  padding-right: 3.5em;
+}
+
+//
+// DESKTOPS
+//
+
+@media (min-width: 992px) {
+  /* PROPERLY CENTERING NAVIGATION */
+  #navbarNavAltMarkup {
+    padding-right: 8.5em;
+  }
+  /* PROPERLY CENTERING NAVIGATION */
+  #name {
+    padding-right: 0;
+  }
+  /* COLOR OF THE NAV LINKS */
+  .navbar-dark .navbar-nav .nav-link {
+    color: $color-primary;
+  }
+  /* COLOR OF THE NAV LINKS > ON HOVER */
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #d4cfcf;
+  }
+  /* COLOR OF THE NAME*/
+  .navbar-dark .navbar-brand {
+    color: $color-text;
+    margin-left: 3rem;
+  }
+  /* CURRENT PAGE */
+  #currentPage {
+    color: $color-text;
+  }
+  #navbarNavAltMarkup {
+    justify-content: center;
+    align-self: center;
+    width: 31.250em;
+  }
+  #nav-container {
+    justify-content: space-between;
+  }
+}
+
+
+
+
+//

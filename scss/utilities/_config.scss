@@ -1,0 +1,23 @@
+/* ======================================================================
+                         COLORS
+========================================================================= */
+
+// Descriptive Color Variables
+$white       : #fff;
+$black       : #000;
+$blue-main   : #19b5fe;
+$blue-link   : blue;
+$blue-frame  : #01356e;
+$red         : red;
+$grey        : #181818;
+
+
+// Functional Color Variables
+
+$color-primary       : $blue-main;
+$color-text          : $white;
+$color-warning       : $red;
+$color-link          : $blue-link;
+$color-bg-light      : $grey;
+$color-bg-dark       : $black;
+$color-img-border    : $blue-frame;
