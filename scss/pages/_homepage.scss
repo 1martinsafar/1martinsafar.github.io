@@ -41,7 +41,7 @@
     background-color: $color-bg-dark;
     border-color: $color-text;
     border-width: 2px;
-    border-radius: 0.5rem;
+    border-radius: $br-lg;
     &:hover {
       background-color: $color-bg-light;
       border-color: $color-primary;
@@ -61,7 +61,7 @@
   width: 17rem;
   color: $color-bg-dark;
   background-color: $color-primary;
-  border-radius: 5px;
+  border-radius: $br-sm;
   padding: 0.75em;
   margin: 1em;
   margin-top: 2rem;
@@ -84,7 +84,7 @@
 /* ======================================================================
                         DESKTOPS
 ========================================================================= */
-@media (min-width: 992px) {
+@include mq(large) {
   #home-main,
   #portfolio-main {
     height: auto;
@@ -115,6 +115,10 @@
     margin: 1.5em;
     margin-top: 5rem;
   }
+}
+
+@media (min-width: 992px) {
+
 }
 
 

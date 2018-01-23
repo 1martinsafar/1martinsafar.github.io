@@ -30,7 +30,7 @@
 /* ======================================================================
                         DESKTOPS
 ========================================================================= */
-@media (min-width: 992px) {
+@include mq(large) {
   #about-main {
     height: auto;
     background-color: $color-bg-dark;
@@ -51,6 +51,7 @@
     align-items: flex-start;
   }
 }
+
 
 
 

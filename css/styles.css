@@ -1,6 +1,43 @@
 /* ======================================================================
                          COLORS
 ========================================================================= */
+/*
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+/*
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+
+*/
+/* ======================================================================
+                         Mixins
+========================================================================= */
 /* ======================================================================
                         GENERAL STYLES
 ========================================================================= */
@@ -74,13 +111,13 @@ a.social {
   a.social:hover {
     opacity: 1; }
 a.twitter {
-  background-image: url(../svgs/twitter.svg);
+  background-image: url("../svgs/twitter.svg");
   background-repeat: no-repeat; }
 a.linkedin {
-  background-image: url(../svgs/linkedin.svg);
+  background-image: url("../svgs/linkedin.svg");
   background-repeat: no-repeat; }
 a.github {
-  background-image: url(../svgs/github.svg);
+  background-image: url("../svgs/github.svg");
   background-repeat: no-repeat; }
 
 .gmail {
@@ -317,7 +354,7 @@ nav .container {
 /* ======================================================================
                         TABLETS
 ========================================================================= */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #portfolio-main {
     padding-top: 3rem; }
 
@@ -554,6 +591,13 @@ nav .container {
 
   .location {
     font-size: 1rem; } }
+/*
+CSS Output Styles
+sass --watch scss:css --style nested         => DEFAULT
+sass --watch scss:css --style expanded
+sass --watch scss:css --style compressed
+sass --watch scss:css --style compact
+*/
 /*
 
 // Extra small devices (portrait phones, less than 576px)

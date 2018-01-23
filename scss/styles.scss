@@ -6,6 +6,17 @@
 @import 'pages/index';
 
 /*
+CSS Output Styles
+sass --watch scss:css --style nested         => DEFAULT
+sass --watch scss:css --style expanded
+sass --watch scss:css --style compressed
+sass --watch scss:css --style compact
+*/
+
+
+
+
+/*
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap

@@ -38,15 +38,15 @@ a {
     }
   }
   &.twitter {
-    background-image: url(../svgs/twitter.svg);
+    background-image: url('#{$path-icons}/twitter.svg');
     background-repeat: no-repeat;
   }
   &.linkedin {
-    background-image: url(../svgs/linkedin.svg);
+    background-image: url('#{$path-icons}/linkedin.svg');
     background-repeat: no-repeat;
   }
   &.github {
-    background-image: url(../svgs/github.svg);
+    background-image: url('#{$path-icons}/github.svg');
     background-repeat: no-repeat;
   }
 }

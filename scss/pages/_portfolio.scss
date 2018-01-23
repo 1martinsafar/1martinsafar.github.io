@@ -35,7 +35,7 @@
     background-color: $color-bg-dark;
     border: 10px solid $color-text;
     border-color: $color-img-border;
-    border-radius: 5px;
+    border-radius: $br-sm;
     padding: 0.625rem;
   }
 }
@@ -63,7 +63,7 @@
 /* ======================================================================
                         TABLETS
 ========================================================================= */
-@media (min-width: 768px) {
+@include mq(medium) {
   #portfolio-main {
     padding-top: 3rem;
   }
@@ -80,7 +80,7 @@
     img {
       border: 15px solid #3e2b14;
       border-color: $color-img-border;
-      border-radius: 5px;
+      border-radius: $br-sm;
       padding: 1.25rem;
     }
   }
@@ -106,10 +106,11 @@
     margin-right: 2.2rem;
   }
 }
+
 /* ======================================================================
                         DESKTOPS
 ========================================================================= */
-@media (min-width: 992px) {
+@include mq(large) {
   #portfolio-main {
     padding-top: 5rem;
   }
@@ -128,7 +129,7 @@
       background-color: $color-bg-dark;
       border: 15px solid #3e2b14;
       border-color: $color-img-border;
-      border-radius: 5px;
+      border-radius: $br-sm;
       padding: 1.25rem;
     }
   }
@@ -139,6 +140,7 @@
     margin-right: 13.9rem;
   }
 }
+
 
 
 
