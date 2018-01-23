@@ -6,12 +6,54 @@
 @import 'pages/index';
 
 /*
+// BEM
+
+.nav
+.nav__item
+.nav__item--current
+
+.list
+.list__item
+.list__item--highlight
+.list__item--end
+
+.form
+.form__label
+.form__input
+.form__btn
+
+.btn--info
+
+*/
+
+/*
+// SMACSS
+With SMACSS, we divide our styles into fives categories:
+  base
+  layout
+  modules
+  states
+  themes.
+Each of these categories come with a set of usage rules.
+=> First, the Base rules define what elements look like by default.
+ That's where we write the CSS reset styles and the default styles for element selectors.
+=> In the Layout rules, we define layout styles for major sections of the page. For instance, the header, footer, sidebar, or grid.
+=> The Modules rules make up the majority of our project styles. That's where we write styles for each module as standalone, reusable components. We've already been doing a good job with modules using m.
+=> The States rules is where we define styles for element states. For example, the hidden, active, collapsed or expanded states of a module.
+=> The Themes rules define different colors and images to give our project a different theme. Now, theme rules are usually optional.
+
+*/
+
+
+/*
 CSS Output Styles
 sass --watch scss:css --style nested         => DEFAULT
 sass --watch scss:css --style expanded
 sass --watch scss:css --style compressed
 sass --watch scss:css --style compact
 */
+
+
 
 
 

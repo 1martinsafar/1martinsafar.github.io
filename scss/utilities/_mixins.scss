@@ -30,9 +30,34 @@
     }
   }
   @else {
-    @error "Whoops, invalid breakpoint: `#{$break}`."
+    @error "Whoops, invalid breakpoint: `#{$break}`.";
   }
 }
+
+// BEM Selectors
+
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+// @include e(item) {}
+// @include m(current) {}
+
+
+
+
+
+
+
+
 
 
 //
