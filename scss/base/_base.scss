@@ -35,6 +35,32 @@ main {
   margin: 0;
 }
 
+
+// Adjusting the HTML to be the full height
+
+// ABOVE/BELLOW
+html {
+  // background-color: red;
+}
+// ABOVE/BELLOW
+body {
+  // background-color: orange;
+  background-color: $color-bg-light;
+  // background-color: $blue-frame;
+  // background-color: $blue-main;
+  // background-color: $color-text;
+  // background-color: $color-bg-dark;
+}
+// LEFT/RIGHT
+main#contact-main,
+main#about-main {
+  // background-color: yellow;
+}
+
+
+
+
+
 /* ======================================================================
                         DESKTOPS
 ========================================================================= */
