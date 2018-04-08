@@ -116,6 +116,9 @@
   }
   #portfolio-container {
     padding-bottom: 6rem;
+    // display: flex;
+    // align-items: flex-start;
+    // justify-content: flex-start;
   }
   .portfolio {
     height:44.375rem;
@@ -141,6 +144,12 @@
   }
   #project-13 {
     height: auto;
+    // background-color: orange;
+  }
+  #project-14,
+  #project-15 {
+    // background-color: orange;
+    align-self: flex-start;
   }
 }
 

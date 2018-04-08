@@ -430,7 +430,11 @@ nav .container {
     margin-right: 13.9rem; }
 
   #project-13 {
-    height: auto; } }
+    height: auto; }
+
+  #project-14,
+  #project-15 {
+    align-self: flex-start; } }
 /* ======================================================================
                          ABOUT PAGE
 ========================================================================= */
