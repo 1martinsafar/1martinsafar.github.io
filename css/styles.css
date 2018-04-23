@@ -434,7 +434,10 @@ nav .container {
 
   #project-14,
   #project-15 {
-    align-self: flex-start; } }
+    align-self: flex-start; }
+
+  #project-16 {
+    height: auto; } }
 /* ======================================================================
                          ABOUT PAGE
 ========================================================================= */
