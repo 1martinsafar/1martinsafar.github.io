@@ -397,7 +397,21 @@ nav .container {
     padding-bottom: 1rem; }
 
   .check-me {
-    margin-right: 2.2rem; } }
+    margin-right: 2.2rem; }
+
+  #project-13 {
+    height: auto; }
+
+  #project-14,
+  #project-15 {
+    align-self: flex-start;
+    height: auto; }
+
+  #project-16 {
+    height: auto; }
+
+  .portfolio {
+    height: auto; } }
 /* ======================================================================
                         DESKTOPS
 ========================================================================= */
@@ -410,6 +424,7 @@ nav .container {
 
   .portfolio {
     height: 44.375rem;
+    height: auto;
     max-width: 28%;
     margin-top: 2rem;
     margin-left: 3rem;

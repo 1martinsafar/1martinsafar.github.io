@@ -105,6 +105,24 @@
   .check-me {
     margin-right: 2.2rem;
   }
+  // Fixing spacing for tablets
+  #project-13 {
+    height: auto;
+    // background-color: orange;
+  }
+  #project-14,
+  #project-15 {
+    // background-color: orange;
+    align-self: flex-start;
+    height: auto;
+  }
+  #project-16 {
+    height: auto;
+  }
+  .portfolio {
+    height: auto;
+    // height: 50rem;
+  }
 }
 
 /* ======================================================================
@@ -122,6 +140,9 @@
   }
   .portfolio {
     height:44.375rem;
+    height: auto;
+    // height: 50rem;
+
     max-width: 28%;
     margin-top: 2rem;
     margin-left: 3rem;
