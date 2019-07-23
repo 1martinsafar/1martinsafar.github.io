@@ -28,7 +28,7 @@ const projectData = [
         image: PI15,
         heading: 'Online Portfolio',
         linkCheck: 'https://1martinsafar.github.io/',
-        linkFiles: 'https://github.com/1martinsafar/1martinsafar.github.io',
+        linkFiles: 'https://github.com/1martinsafar/1martinsafar.github.io/tree/dev',
         skills: `React, CSS Modules`,
         description: `This Online Portfolio React App. Thank you for visiting!`,
     },
